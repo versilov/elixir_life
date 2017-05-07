@@ -152,5 +152,3 @@ defmodule Life do
     System.cmd("say", [Integer.to_string(generations), " generations took ", Float.to_string(seconds), " seconds."])
   end
 end
-
-Life.main(["100", "100", "1000"])
